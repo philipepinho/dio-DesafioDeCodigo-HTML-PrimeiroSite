@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!-- Declara o tipo de documento como HTML5 -->
+<html lang="pt-br"> <!-- Início do documento HTML com idioma definido como inglês -->
+<head> <!-- Cabeçalho do documento -->
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Garante compatibilidade com o modo de renderização mais recente do IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura o layout responsivo baseado na largura da tela do dispositivo -->
+    <title>Template - Utilizar como modelo</title> <!-- Define o título da página exibido na aba do navegador -->
+    <link rel="stylesheet" href="base.css"> <!-- Importa o arquivo CSS externo chamado "base.css" -->
+</head>
+<body> <!-- Início do corpo do documento -->
+    <div class="wrapper"> <!-- Container principal que envolve todos os elementos da página -->
+        <div class="menu"> <!-- Área dedicada ao menu de navegação -->
+            <!-- Aqui vai o seu menu -->
+            <ul> <!-- Início da lista não ordenada para os itens do menu -->
+                <li><a href="00Index.html">Página Principal</a></li> <!-- Item do menu com um link de exemplo -->
+            </ul> <!-- Fim da lista não ordenada do menu -->
+            <ul> <!-- Início da lista não ordenada para os itens do menu -->
+                <li><a href="01About.html">Sobre a clínica</a></li> <!-- Item do menu com um link de exemplo -->
+            </ul> <!-- Fim da lista não ordenada do menu -->
+            <ul> <!-- Início da lista não ordenada para os itens do menu -->
+                <li><a href="02OpeningH.html">Horário de Atendimento</a></li> <!-- Item do menu com um link de exemplo -->
+            </ul> <!-- Fim da lista não ordenada do menu -->
+            <ul> <!-- Início da lista não ordenada para os itens do menu -->
+                <li><a href="03Contacts.html">Contato</a></li> <!-- Item do menu com um link de exemplo -->
+            </ul> <!-- Fim da lista não ordenada do menu -->
+        </div>
+
+        <div class="main"> <!-- Container principal do conteúdo da página -->
+            <div class="header"> <!-- Seção do cabeçalho da página -->
+                <img src="https://maxmaq.com.br/wp-content/uploads/2020/02/imagem-montar-clinica-1024x539-1.png" alt="Imagem de exemplo"> <!-- Imagem com descrição alternativa -->
+             </div>
+                <!-- divisão --> 
+                <div class="content"> <!-- Seção principal do conteúdo da página -->
+                    <!-- Informações de Contato da Clínica -->
+                    <table align="center">
+                        <tr>
+                            <td><strong>Clínica Médica Vida Plena</strong></td>
+                            <td>Telefone: (66) 98888-7777</td>
+                        </tr>
+                        <tr>
+                            <td>Celular / WhatsApp: (66) 97777-6666</td>
+                        </tr>
+                        <tr>
+                            <td>E-mail: atendimento@vidaplena.com.br</td>
+                        </tr>
+                    </table>
+                    
+                    <!-- Iframe do Google Maps -->
+                    <div style="text-align:center; margin-top:20px;">
+                        <iframe src="https://www.google.com/maps?q=Rua%20das%20Esperanças,%20Campo%20Verde,%20MT&output=embed" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                
+                    <!-- Formulário de Contato -->
+                    <div style="text-align:center; margin-top:20px;">
+                        <h2>Formulário de Contato</h2>
+                        <form action="#" method="post">
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome" required><br><br>
+                            
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" required><br><br>
+                            
+                            <label for="assunto">Assunto:</label><br>
+                            <input type="text" id="assunto" name="assunto" required><br><br>
+                            
+                            <label for="mensagem">Mensagem:</label><br>
+                            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+                            
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar Formulário</button>
+                        </form>
+                    </div>
+                </div>
+                
+            <!-- divisão -->           
+            <div class="footer"> <!-- Seção do rodapé da página -->
+                <table align="center">
+                    <tr>
+                        <td><strong> Clínica Médica Vida Plena</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Rua das Esperanças, nº 456, Sala 203, Bairro Central - Campo Verde/MT</td>
+                    </tr>
+                    <tr>
+                        <td>CEP: 78840-000</td>
+                    </tr>
+                    <tr>
+                        <td>Telefone: (66) 98888-7777</td>
+                    </tr>
+                    <tr>
+                        <td>E-mail: atendimento@vidaplena.com.br</td>
+                    </tr>
+                    <tr>
+                        <td>Horário de Atendimento: Segunda a Sexta, das 08h às 18h</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html> <!-- Fim do documento HTML -->
